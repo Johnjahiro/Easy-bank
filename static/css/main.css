@@ -25,7 +25,7 @@ body {
 .wrapper {
   padding: 0 var(--wrapperSpace); }
 
-.title-h1, .title-h2 {
+.title-h1 {
   font-size: 2.5em;
   color: var(--darkBlue);
   font-weight: 300;
@@ -33,7 +33,20 @@ body {
   margin-bottom: .5em; }
 
 .title-h2 {
+  font-size: 2.5em;
+  color: var(--darkBlue);
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: .5em;
   font-size: 1.5em; }
+
+.title-h3 {
+  font-size: 2.5em;
+  color: var(--darkBlue);
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: .5em;
+  font-size: 1em; }
 
 .button {
   padding: 1em 2.3em;
@@ -72,5 +85,33 @@ body {
     margin-bottom: 2em; }
   .why__item img {
     margin-bottom: 1.5em; }
+
+.latest-articles {
+  border: 1px solid red;
+  padding: 5em 0;
+  background: var(--lightGray); }
+  .latest-articles .title-h1 {
+    text-align: center; }
+  .latest-articles .title-h3 {
+    text-align: left; }
+  .latest-articles__grid {
+    display: grid;
+    grid-row-gap: 2em; }
+  .latest-articles__item {
+    border: 1px solid green;
+    border-radius: .5em;
+    overflow: hidden;
+    background: var(--white); }
+    .latest-articles__item--content {
+      padding: 1.8em; }
+    .latest-articles__item .copy {
+      color: var(--grayBlue); }
+    .latest-articles__item small {
+      color: var(--grayBlue);
+      margin-bottom: 1em;
+      display: block; }
+    .latest-articles__item img {
+      width: 100%;
+      object-fit: cover; }
 
 /*# sourceMappingURL=main.css.map */

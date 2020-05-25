@@ -30,7 +30,7 @@ body {
   padding: 0 var(--wrapperSpace);
 }
 
-.title-h1 {
+@mixin title {
   font-size: 2.5em;
   color: var(--darkBlue);
   font-weight: 300;
@@ -38,9 +38,18 @@ body {
   margin-bottom: .5em;
 }
 
+.title-h1 {
+  @include title;
+}
+
 .title-h2 {
-  @extend .title-h1;
+  @include title;
   font-size: 1.5em;
+}
+
+.title-h3 {
+  @include title;
+  font-size: 1em;
 }
 
 .button {
@@ -59,4 +68,4 @@ body {
 @import "./menu.scss";
 @import "./hero.scss";
 @import "./why.scss";
-
+@import "./latestArticles.scss";
