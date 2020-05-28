@@ -49,11 +49,43 @@ body {
   font-size: 1em; }
 
 .button {
+  border: none;
   padding: 1em 2.3em;
   font-size: 1em;
   border-radius: 1.5em;
   color: var(--white);
   background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--brightCyan) 100%); }
+
+.icon__facebook {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-facebook.svg"); }
+.icon__youtube {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-youtube.svg"); }
+.icon__twitter {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-twitter.svg"); }
+.icon__pinterest {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-pinterest.svg"); }
+.icon__instagram {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-instagram.svg"); }
 
 .header {
   display: flex;
@@ -87,7 +119,6 @@ body {
     margin-bottom: 1.5em; }
 
 .latest-articles {
-  border: 1px solid red;
   padding: 5em 0;
   background: var(--lightGray); }
   .latest-articles .title-h1 {
@@ -98,7 +129,6 @@ body {
     display: grid;
     grid-row-gap: 2em; }
   .latest-articles__item {
-    border: 1px solid green;
     border-radius: .5em;
     overflow: hidden;
     background: var(--white); }
@@ -113,5 +143,30 @@ body {
     .latest-articles__item img {
       width: 100%;
       object-fit: cover; }
+
+.footer {
+  background: var(--darkBlue);
+  color: var(--white);
+  padding: 2em 0;
+  text-align: center; }
+  .footer svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em; }
+  .footer__link {
+    display: block;
+    color: var(--gray);
+    text-decoration: none;
+    margin-bottom: 2em; }
+  .footer__social {
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    grid-column-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5em 0; }
+  .footer__copyright {
+    color: var(--grayBlue);
+    margin-top: 2.5em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,4 @@
-.latest-articles {
-    border: 1px solid red;
+.latest-articles {    
     padding: 5em 0;
     background: var(--lightGray);
 
@@ -16,8 +15,7 @@
         grid-row-gap: 2em;
     }
 
-    &__item {
-        border: 1px solid green;
+    &__item {        
         border-radius: .5em;
         overflow: hidden;
         background: var(--white);        
