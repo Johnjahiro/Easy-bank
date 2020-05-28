@@ -109,7 +109,7 @@ body {
 .why {
   text-align: center;
   background: var(--gray);
-  padding-top: 4.5em; }
+  padding: 5em 0; }
   .why .copy {
     margin-bottom: 4em;
     font-size: 1em; }
